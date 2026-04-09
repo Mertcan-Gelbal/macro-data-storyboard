@@ -8,5 +8,4 @@ lxml
 beautifulsoup4
 html5lib
 openpyxl
-currencyscoop
 numpy
