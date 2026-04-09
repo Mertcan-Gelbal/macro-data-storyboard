@@ -14,8 +14,8 @@ if sys.platform == "darwin":
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from data.catalog import INDICATORS
-from services.fetcher import fetch_indicator_data, get_stats
+from backend.data.catalog import INDICATORS
+from backend.services.fetcher import fetch_indicator_data, get_stats
 from typing import Optional
 
 app = FastAPI(title="MacroData API", version="2.0.0")
