@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+akshare
+pydantic
+requests
+lxml
+beautifulsoup4
+html5lib
+openpyxl
+currencyscoop
+numpy
