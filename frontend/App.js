@@ -5,7 +5,7 @@ import axios from 'axios';
 import { VictoryLine, VictoryChart, VictoryAxis, VictoryTheme, VictoryTooltip, VictoryVoronoiContainer } from 'victory-native';
 import { TrendingUp, Globe, Settings, ArrowUpRight, ArrowDownRight } from 'lucide-react-native';
 
-const API_BASE = "https://macro-data-storyboard.vercel.app/api";
+const API_BASE = "/api";
 
 export default function App() {
   const [indicators, setIndicators] = useState([]);
